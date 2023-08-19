@@ -1,5 +1,5 @@
 # SHy
-Implementation for the paper: Self-Explaining Hypergraph Neural Networks for Diagnosis Prediction
+Implementation for the paper: Self-Explaining Hypergraph Neural Networks for Diagnosis Prediction.
 
 ## Requirements
 - Python 3.7.13
@@ -12,7 +12,7 @@ Download the following MIMIC-III data files from [PhysioNet](https://physionet.o
 - DIAGNOSES_ICD.csv
 - D_ICD_DIAGNOSES.csv
 
-Run the preprocessing notebook for MIMIC-III: `src/iii_preprocessing.ipynb`
+Run the preprocessing notebook for MIMIC-III: `src/iii_preprocessing.ipynb`.
 
 ### Experiments on MIMIC-IV
 Download the following MIMIC-IV data files from [PhysioNet](https://physionet.org/content/mimiciv/1.0/) to the directory `data/RAW/MIMIC_IV`:
@@ -20,6 +20,6 @@ Download the following MIMIC-IV data files from [PhysioNet](https://physionet.or
 - diagnoses_icd.csv
 - d_icd_diagnoses.csv
 
-Run the preprocessing notebook for MIMIC-IV: `src/iv_preprocessing.ipynb`
+Run the preprocessing notebook for MIMIC-IV: `src/iv_preprocessing.ipynb`.
 
 ## Model Training and Evaluation
