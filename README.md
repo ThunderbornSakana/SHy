@@ -29,7 +29,7 @@ Run the preprocessing notebook for MIMIC-IV: `./src/iv_preprocessing.ipynb`.
 
 ## Model Training and Evaluation
 First, make the following directories:
-- `./saved_models/`
+- `./saved_models`
 - `./training_logs`
 ### Experiments on MIMIC-III
 In `./src`, run the following command:
