@@ -6,6 +6,11 @@ Implementation for the paper: Self-Explaining Hypergraph Neural Networks for Dia
 - PyTorch 1.11.0
 
 ## Data Downloading and Preprocessing
+First, make the following directories:
+- `./data/RAW/MIMIC_III`
+- `./data/MIMIC_III`
+- `./data/MIMIC_IV/binary_test_x_slices`
+- `./data/MIMIC_IV/binary_train_x_slices`
 ### Experiments on MIMIC-III
 Download the following MIMIC-III data files from [PhysioNet](https://physionet.org/content/mimiciii/1.4/) to the directory `data/RAW/MIMIC_III`:
 - ADMISSIONS.csv
@@ -23,6 +28,9 @@ Download the following MIMIC-IV data files from [PhysioNet](https://physionet.or
 Run the preprocessing notebook for MIMIC-IV: `src/iv_preprocessing.ipynb`.
 
 ## Model Training and Evaluation
+First, make the following directories:
+- `./saved_models/`
+- `./training_logs`
 ### Experiments on MIMIC-III
 In `src`, run the following command:
 ```bash
