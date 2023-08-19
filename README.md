@@ -23,3 +23,16 @@ Download the following MIMIC-IV data files from [PhysioNet](https://physionet.or
 Run the preprocessing notebook for MIMIC-IV: `src/iv_preprocessing.ipynb`.
 
 ## Model Training and Evaluation
+### Experiments on MIMIC-III
+In `src`, run the following command:
+```bash
+python -u main.py --temperature 1.0 1.0 1.0 1.0 1.0 --add_ratio 0.2 0.2 0.2 0.2 0.2 --loss_weight 1.0 0.003 0.00025 0.0 0.04
+```
+The model checkpoint at each epoch will be saved in `saved_models`. When the training is done, the results will be saved in `training_logs`.
+
+### Experiments on MIMIC-IV
+In `src`, run the following command:
+```bash
+python -u main.py --temperature 1.0 1.0 1.0 1.0 1.0 --add_ratio 0.2 0.2 0.2 0.2 0.2 --loss_weight 1.0 0.003 0.00025 0.0 0.04
+```
+The model checkpoint at each epoch will be saved in `saved_models`. When the training is done, the results will be saved in `training_logs`.
