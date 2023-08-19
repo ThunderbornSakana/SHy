@@ -2,8 +2,13 @@
 Implementation for the paper: Self-Explaining Hypergraph Neural Networks for Diagnosis Prediction.
 
 ## Requirements
-- Python 3.7.13
-- PyTorch 1.11.0
+- Python 3.9.13
+- PyTorch 1.13.1
+- Pyro 1.8.4
+- torch_scatter 2.1.0+pt113cu116
+- torch_sparse 0.6.16+pt113cu116
+- torch_geometric 2.2.0
+- DHG 0.9.3
 
 ## Data Downloading and Preprocessing
 First, make the following directories:
