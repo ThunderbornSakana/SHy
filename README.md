@@ -11,9 +11,15 @@ Download the following MIMIC-III data files from [PhysioNet](https://physionet.o
 - ADMISSIONS.csv
 - DIAGNOSES_ICD.csv
 - D_ICD_DIAGNOSES.csv
+
+Run the preprocessing notebook for MIMIC-III: `src/iii_preprocessing.ipynb`
+
 ### Experiments on MIMIC-IV
 Download the following MIMIC-IV data files from [PhysioNet](https://physionet.org/content/mimiciv/1.0/) to the directory `data/RAW/MIMIC_IV`:
 - admissions.csv
 - diagnoses_icd.csv
 - d_icd_diagnoses.csv
 
+Run the preprocessing notebook for MIMIC-IV: `src/iv_preprocessing.ipynb`
+
+## Model Training and Evaluation
