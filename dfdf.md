@@ -32,6 +32,7 @@ Student: Leisheng Yu
            offline mode : False
 ```
 
+
 ## Task 3
 ![task3_fig](https://github.com/ThunderbornSakana/SHy/assets/84387542/a529b5cd-69c5-436b-a725-59666478be3d)
 
@@ -46,21 +47,9 @@ plt.show()
 ![task4_fig](https://github.com/ThunderbornSakana/SHy/assets/84387542/e0e3816a-3af2-456f-8181-41570646179f)
 
 
+## Task 5
+[https://github.com/ThunderbornSakana](https://github.com/ThunderbornSakana)
 
-## Model Training and Evaluation
-First, make the following directories:
-- `./saved_models`
-- `./training_logs`
-### Experiments on MIMIC-III
-In `./src`, run the following command:
-```bash
-python -u main.py --temperature 1.0 1.0 1.0 1.0 1.0 --add_ratio 0.2 0.2 0.2 0.2 0.2 --loss_weight 1.0 0.003 0.00025 0.0 0.04
-```
-The model checkpoint at each epoch will be saved in `./saved_models`. When the training is done, the results will be saved in `./training_logs`.
 
-### Experiments on MIMIC-IV
-In `./src`, run the following command:
-```bash
-python -u main.py --dataset_name 'MIMIC_IV' --temperature 1.0 1.0 1.0 1.0 1.0 --add_ratio 0.2 0.2 0.2 0.2 0.2 --loss_weight 1.0 0.003 0.00025 0.0 0.04
-```
-The model checkpoint at each epoch will be saved in `./saved_models`. When the training is done, the results will be saved in `./training_logs`.
+## Task 6
+[https://github.com/ThunderbornSakana/COMP576](https://github.com/ThunderbornSakana/COMP576)
