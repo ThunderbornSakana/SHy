@@ -34,30 +34,15 @@ Student: Leisheng Yu
 
 
 ## Task 2
-```bash
-import numpy as np
-a = np.array([[1., 2., 3.], [4., 5., 6.]])
-a.ndim
-```
-2
-```bash
-a.size
-```
-6
-```bash
-a.size
-```
-(2, 3)
-```bash
-b = np.array([[1., 2., 3.], [4., 5., 6.]])
-c = np.array([[1., 2., 3.], [4., 5., 6.]])
-d = np.array([[1., 2., 3.], [4., 5., 6.]])
-np.block([[a, b], [c, d]])
-```
-array([[1., 2., 3., 1., 2., 3.],
-       [4., 5., 6., 4., 5., 6.],
-       [1., 2., 3., 1., 2., 3.],
-       [4., 5., 6., 4., 5., 6.]])
+![Screenshot 2023-09-13 at 3 24 23 AM](https://github.com/ThunderbornSakana/SHy/assets/84387542/909d5b41-c9b7-494b-8fc8-eb04f55da436)
+![Screenshot 2023-09-13 at 3 25 02 AM](https://github.com/ThunderbornSakana/SHy/assets/84387542/02215f7e-2dd8-4228-8945-5744b4916436)
+![Screenshot 2023-09-13 at 3 25 23 AM](https://github.com/ThunderbornSakana/SHy/assets/84387542/6e649793-744f-48d6-aaa3-b1a08f7c2ad6)
+![Screenshot 2023-09-13 at 3 25 56 AM](https://github.com/ThunderbornSakana/SHy/assets/84387542/86325198-3ced-40d5-af27-829950fbffa5)
+![Screenshot 2023-09-13 at 3 26 15 AM](https://github.com/ThunderbornSakana/SHy/assets/84387542/8b945362-2c67-4059-b7af-6112a51e3546)
+![Screenshot 2023-09-13 at 3 26 38 AM](https://github.com/ThunderbornSakana/SHy/assets/84387542/34513f4e-a3b7-4874-8453-a13a794ccd9a)
+![Screenshot 2023-09-13 at 3 26 58 AM](https://github.com/ThunderbornSakana/SHy/assets/84387542/34ea3549-a6a1-4637-9e6e-997b20996324)
+![Screenshot 2023-09-13 at 3 27 53 AM](https://github.com/ThunderbornSakana/SHy/assets/84387542/03446a0a-c40f-401b-b230-f4573a0d7481)
+![Screenshot 2023-09-13 at 3 28 11 AM](https://github.com/ThunderbornSakana/SHy/assets/84387542/df6515ed-ade1-4333-903c-b81d286a42b3)
 
 
 ## Task 3
