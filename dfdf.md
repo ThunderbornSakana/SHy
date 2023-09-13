@@ -32,6 +32,10 @@ Student: Leisheng Yu
            offline mode : False
 ```
 
+## Task 3
+![task3_fig](https://github.com/ThunderbornSakana/SHy/assets/84387542/a529b5cd-69c5-436b-a725-59666478be3d)
+
+
 ## Task 4
 ```bash
 x = np.arange(0, 10*np.pi, 0.1)
