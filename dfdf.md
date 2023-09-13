@@ -33,6 +33,33 @@ Student: Leisheng Yu
 ```
 
 
+## Task 2
+```bash
+import numpy as np
+a = np.array([[1., 2., 3.], [4., 5., 6.]])
+a.ndim
+```
+2
+```bash
+a.size
+```
+6
+```bash
+a.size
+```
+(2, 3)
+```bash
+b = np.array([[1., 2., 3.], [4., 5., 6.]])
+c = np.array([[1., 2., 3.], [4., 5., 6.]])
+d = np.array([[1., 2., 3.], [4., 5., 6.]])
+np.block([[a, b], [c, d]])
+```
+array([[1., 2., 3., 1., 2., 3.],
+       [4., 5., 6., 4., 5., 6.],
+       [1., 2., 3., 1., 2., 3.],
+       [4., 5., 6., 4., 5., 6.]])
+
+
 ## Task 3
 ![task3_fig](https://github.com/ThunderbornSakana/SHy/assets/84387542/a529b5cd-69c5-436b-a725-59666478be3d)
 
