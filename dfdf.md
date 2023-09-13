@@ -32,27 +32,16 @@ Student: Leisheng Yu
            offline mode : False
 ```
 
-## Data Downloading and Preprocessing
-First, make the following directories:
-- `./data/RAW/MIMIC_III`
-- `./data/MIMIC_III`
-- `./data/MIMIC_IV/binary_test_x_slices`
-- `./data/MIMIC_IV/binary_train_x_slices`
-### Experiments on MIMIC-III
-Download the following MIMIC-III data files from [PhysioNet](https://physionet.org/content/mimiciii/1.4/) to the directory `./data/RAW/MIMIC_III`:
-- ADMISSIONS.csv
-- DIAGNOSES_ICD.csv
-- D_ICD_DIAGNOSES.csv
+## Task 4
+```bash
+x = np.arange(0, 10*np.pi, 0.1)
+y = np.sin(x)
+plt.plot(x, y)
+plt.show()
+```
+![task4_fig](https://github.com/ThunderbornSakana/SHy/assets/84387542/e0e3816a-3af2-456f-8181-41570646179f)
 
-Run the preprocessing notebook for MIMIC-III: `./src/iii_preprocessing.ipynb`.
 
-### Experiments on MIMIC-IV
-Download the following MIMIC-IV data files from [PhysioNet](https://physionet.org/content/mimiciv/1.0/) to the directory `./data/RAW/MIMIC_IV`:
-- admissions.csv
-- diagnoses_icd.csv
-- d_icd_diagnoses.csv
-
-Run the preprocessing notebook for MIMIC-IV: `./src/iv_preprocessing.ipynb`.
 
 ## Model Training and Evaluation
 First, make the following directories:
